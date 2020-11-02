@@ -29,11 +29,6 @@ main {
   display: flex;
 }
 
-footer {
-  border: 1px solid red;
-  height: 110px;
-}
-
 .header-ul {
   color: RGB(192, 199, 208);
   display: flex;
@@ -115,4 +110,20 @@ aside h1 {
   background: RGB(51, 124, 246);
   color: white;
   font-size: 22px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: RGB(249, 249, 249);
+  height: 110px;
 }
