@@ -74,6 +74,30 @@ aside h1 {
   height: 700px;
   border: 1px solid red;
   margin: 30px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.article1 {
+  border: 1px solid red;
+  height: 300px;
+  width: 495px;
+}
+
+.article2 {
+  border: 1px solid red;
+  height: 600px;
+  width: 495px;
+  order: 2;
+}
+
+.article3 {
+  border: 1px solid red;
+  height: 370px;
+  width: 495px;
 }
 
 .aside-left-about {
