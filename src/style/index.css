@@ -43,8 +43,7 @@ footer {
 }
 
 .aside-left {
-  width: 200px;
-  border: 1px solid red;
+  width: 220px;
   margin: 30px 0 0 30px;
 }
 
@@ -55,7 +54,6 @@ aside h1 {
 .aside-right {
   width: 250px;
   height: 250px;
-  font-style: italic;
   border: 1px solid red;
   /*display: flex;*/
   align-self: center;
@@ -73,7 +71,16 @@ aside h1 {
 
 .main-content {
   width: 860px;
-  height: 560px;
+  height: 700px;
   border: 1px solid red;
   margin: 30px;
+}
+
+.aside-left-about {
+  padding: 30px 10px;
+  background: RGB(248, 249, 250);
+}
+
+.aside-left-archives {
+  padding: 10px;
 }
