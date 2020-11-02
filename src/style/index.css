@@ -25,7 +25,6 @@ header {
 }
 
 main {
-  border: 1px solid red;
   display: flex;
 }
 
@@ -72,7 +71,6 @@ aside h1 {
 .main-content {
   width: 1020px;
   height: 700px;
-  border: 1px solid red;
   margin: 30px;
 
   display: flex;
@@ -82,21 +80,24 @@ aside h1 {
 }
 
 .article1 {
-  border: 1px solid red;
-  height: 300px;
+  border: 2px solid RGB(226, 226, 226);
+  height: 310px;
   width: 495px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .article2 {
-  border: 1px solid red;
+  border: 2px solid RGB(226, 226, 226);
   height: 600px;
   width: 495px;
   order: 2;
 }
 
 .article3 {
-  border: 1px solid red;
-  height: 370px;
+  border: 2px solid RGB(226, 226, 226);
+  height: 360px;
   width: 495px;
 }
 
@@ -151,4 +152,32 @@ footer {
   align-content: center;
   background: RGB(249, 249, 249);
   height: 110px;
+}
+
+img {
+  height: 120px;
+  width: 100%;
+}
+
+.detailed-info {
+  padding: 10px;
+}
+
+.main-content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.view-details {
+  text-decoration: none;
+  color: RGB(51, 124, 246);
+}
+
+.arrow-right {
+  border: solid RGB(51, 124, 246);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
