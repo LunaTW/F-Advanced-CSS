@@ -49,14 +49,15 @@ aside h1 {
 .aside-right {
   width: 300px;
   height: 250px;
-  border: 1px solid red;
-  display: flex;
   align-self: center;
   background: RGB(245, 245, 245);
-  flex-direction: column;
   align-items: center;
   padding: 20px;
-  /*justify-content: center;*/
+}
+
+.try-center {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -65,7 +66,7 @@ aside h1 {
   height: 250px;
   color: white;
   background: RGB(245, 245, 245);
-  border: 1px solid red;
+  border: 1px solid RGB(245, 245, 245);
 }
 
 .main-content {
